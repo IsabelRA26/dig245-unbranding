@@ -1,3 +1,3 @@
 
 /* javascript */
-// console.log("")
+var foo = true;

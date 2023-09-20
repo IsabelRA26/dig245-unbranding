@@ -16,7 +16,12 @@
     </div>
 
     <img class="ogclothes" src="assets\img\sheinclothes.jpg" height="431px" width="1381px">
-
+    <div class=”popup”>
+    </div>
+    <button id=”close”>&times;</button>
+    <h2>Automatic Pop-Up</h2>
+    <p>Lorem, ipsum … dignissimos?</p>
+    <a href=”#”>Let’s Go</a>
       <script>
        
        let bannerTop = document.querySelector(".ogtop");
@@ -29,13 +34,13 @@
         bannerTop.src = "assets/img/justintop.jpg";
         bannerMid.src = "assets/img/newbanner.jpg";
         bannerLow.src = "assets/img/newclothes.jpg";
-        container.style.cursor = "$";
+        container.style.cursor ="pointer";
         
        });
 
        bannerLow.addEventListener("mouseover", function(){
         bannerLow.src = "assets/img/newclothes.jpg";
-        container.style.cursor = "$";
+        bannerLow.style.cursor ="no-drop";
         
        });
 
@@ -55,7 +60,6 @@
 
        console.log("The reason I chose SHEIN for this assignment is because they have received plenty of backlash over the years, but people continue to buy from them. I think bringing attention to the shady back-end practices of this company will help people see that even though their items cost very little, they are paying the price in other ways.");
 
-       
 
         </script>
 </body>
