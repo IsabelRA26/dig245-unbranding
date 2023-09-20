@@ -11,7 +11,6 @@
 </head>
 
 <body>
-    <!-- <div class="container"> -->
     <img class="ogtop" src="assets\img\Sheintop.jpg">
     <div class="container">
         
@@ -28,14 +27,13 @@
        let bannerTop = document.querySelector(".ogtop");
        let bannerMid = document.querySelector(".ogbanner");
        let bannerLow = document.querySelector(".ogclothes");
-       let container = document.querySelector(".text-block");
        let newText = document.querySelector(".newtitle")
 
-       container.addEventListener("mouseover", function(){
+       bannerMid.addEventListener("mouseover", function(){
         bannerTop.src = "assets/img/justintop.jpg";
         bannerMid.src = "assets/img/newbanner.jpg";
         bannerLow.src = "assets/img/newclothes.jpg";
-        container.style.cursor ="pointer";
+        bannerMid.style.cursor ="pointer";
         
        });
 
@@ -51,11 +49,11 @@
     
        });
 
-       container.addEventListener("mouseout", function(){
+       bannerMid.addEventListener("mouseout", function(){
         bannerTop.src = "assets/img/Sheintop.jpg";
         bannerMid.src = "assets/img/sheinbanner.jpg";
         bannerLow.src = "assets/img/sheinclothes.jpg";
-        container.style.cursor = "$";
+        bannerMid.style.cursor = "$";
     
        });
 
