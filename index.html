@@ -3,12 +3,60 @@
 <head>
     <!-- meta tags, links to css, etc. -->
     <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title>DIG 245 Unbrand</title>
 </head>
+
 <body>
+    <img class="ogtop" src="assets\img\Sheintop.jpg" height="160px" width="1400px">
+    <div class="container">
+        
+        <img class="ogbanner" src="assets\img\sheinbanner.jpg" height="368px" width="916px">
+        <div class="text-block">
+    </div>
 
-    <!-- visible content goes here -->
-    <h1>DIG 245 Unbrand</h1>
+    <img class="ogclothes" src="assets\img\sheinclothes.jpg" height="431px" width="1381px">
 
+      <script>
+       
+       let bannerTop = document.querySelector(".ogtop");
+       let bannerMid = document.querySelector(".ogbanner");
+       let bannerLow = document.querySelector(".ogclothes");
+       let container = document.querySelector(".text-block");
+       let newText = document.querySelector(".newtitle")
+
+       container.addEventListener("mouseover", function(){
+        bannerTop.src = "assets/img/justintop.jpg";
+        bannerMid.src = "assets/img/newbanner.jpg";
+        bannerLow.src = "assets/img/newclothes.jpg";
+        container.style.cursor = "$";
+        
+       });
+
+       bannerLow.addEventListener("mouseover", function(){
+        bannerLow.src = "assets/img/newclothes.jpg";
+        container.style.cursor = "$";
+        
+       });
+
+       bannerLow.addEventListener("mouseout", function(){
+        bannerLow.src = "assets/img/sheinclothes.jpg";
+        container.style.cursor = "$";
+    
+       });
+
+       container.addEventListener("mouseout", function(){
+        bannerTop.src = "assets/img/Sheintop.jpg";
+        bannerMid.src = "assets/img/sheinbanner.jpg";
+        bannerLow.src = "assets/img/sheinclothes.jpg";
+        container.style.cursor = "$";
+    
+       });
+
+       console.log("The reason I chose SHEIN for this assignment is because they have received plenty of backlash over the years, but people continue to buy from them. I think bringing attention to the shady back-end practices of this company will help people see that even though their items cost very little, they are paying the price in other ways.");
+
+       
+
+        </script>
 </body>
 </html>

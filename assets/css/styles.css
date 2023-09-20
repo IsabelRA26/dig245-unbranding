@@ -1,2 +1,41 @@
-
 /* css */
+
+.ogtop {
+    margin-left: 20px;
+}
+
+.ogbanner {
+    margin-left: 262px;
+    margin-top: 50px;
+}
+
+
+.ogclothes {
+    margin-left: 45px;
+    margin-top: 60px;
+}
+
+.hoverbutton {
+
+    margin-left: 400;
+    margin-top: 150;
+    color:blue;
+    width: 132px;
+    height: 27px;
+    position:unset;
+}
+
+.container {
+    position: relative;
+  }
+  
+  .text-block {
+    position: absolute;
+    top: 320px;
+    left: 655px;
+    padding-left: 65px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+
