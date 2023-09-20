@@ -1,18 +1,19 @@
 /* css */
 
 .ogtop {
-    margin-left: 20px;
+    width: 100%;
 }
 
 .ogbanner {
-    margin-left: 262px;
     margin-top: 50px;
+    width:100%;
+
 }
 
 
 .ogclothes {
-    margin-left: 45px;
-    margin-top: 60px;
+    margin-top: 60px; 
+    width: 100%;
 }
 
 .hoverbutton {
@@ -25,16 +26,16 @@
     position:unset;
 }
 
-.container {
+/* .container {
     position: relative;
-  }
+  } */
   
   .text-block {
     position: absolute;
     top: 320px;
-    left: 655px;
-    padding-left: 65px;
-    padding-right: 60px;
+    left: 420px;
+    padding-left: 20px;
+    padding-right: 80px;
     padding-top: 20px;
     padding-bottom: 100px;
   }
